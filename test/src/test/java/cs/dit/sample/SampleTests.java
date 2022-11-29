@@ -39,7 +39,7 @@ public class SampleTests {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			log.error(e.getMessage());
+//			log.error(e.getMessage());
 		}
 	}
 	@Test

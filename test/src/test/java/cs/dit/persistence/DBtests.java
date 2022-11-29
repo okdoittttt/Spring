@@ -23,7 +23,7 @@ public class DBtests {
 			log.info(class1);
 			
 			Connection con = DriverManager.getConnection(
-					"jdbc:mariadb://localhost:3306/jaehyukdb", "jaehyuk", "1111");
+					"jdbc:mariadb://localhost:3306/sonny", "root", "0070");
 			log.info(con);
 			
 			con.close();
